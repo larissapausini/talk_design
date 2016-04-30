@@ -1,0 +1,22 @@
+{
+  "name": "talkdesign",
+  "version": "1.0.0",
+  "description": "Projeto do site da Renata",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lscasanova/Talk-Design.git"
+  },
+  "author": "Leandro Casanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lscasanova/Talk-Design/issues"
+  },
+  "homepage": "https://github.com/lscasanova/Talk-Design#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
