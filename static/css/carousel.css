@@ -13,6 +13,13 @@ body {
     height: 500px;
 }
 
+.vertical-center {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
