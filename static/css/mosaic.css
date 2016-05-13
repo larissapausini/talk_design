@@ -2,19 +2,18 @@
    /* Prevent vertical gaps */
    line-height: 0;
 
-   -webkit-column-count: 5;
-   -webkit-column-gap:   15px;
-   -moz-column-count:    5;
-   -moz-column-gap:      15px;
-   column-count:         5;
-   column-gap:           15px;
+   -webkit-column-count: 4;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    4;
+   -moz-column-gap:      0px;
+   column-count:         4;
+   column-gap:           0px;
 }
 
 #photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  margin-bottom: 15px;
 }
 
 @media (max-width: 1200px) {
