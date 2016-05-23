@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/lscasanova/Talk-Design#readme",
   "dependencies": {
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
   }
 }
