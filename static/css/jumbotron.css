@@ -8,9 +8,13 @@ body {
 }
 
 .jumbotron-talkdesign {
-    padding-top: 60px;
     height: 200px;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+}
+
+.bg-navbar {
+  background-color: #FFFFFF;
+  border: 0px;
 }
 
 .vertical-center {
@@ -18,3 +22,7 @@ body {
   display: flex;
   text-align: center;
 }
+
+.flag-icon {
+    width: 2em;
+    line-height: 2em;
