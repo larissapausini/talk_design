@@ -56,3 +56,9 @@
   margin-top: 48px;
   margin-bottom: 48px;
 }
+
+.mosaic_img {
+  border: 1px;
+  border-style: solid;
+  border-color: #000000;
+}
