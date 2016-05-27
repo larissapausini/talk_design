@@ -2,11 +2,6 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  padding-bottom: 40px;
-  color: #5a5a5a;
-}
-
 .jumbotron-talkdesign {
     height: 200px;
     background-color: #FFFFFF;
@@ -26,3 +21,38 @@ body {
 .flag-icon {
     width: 2em;
     line-height: 2em;
+}
+
+.navbar-inverse{
+  background-color: #FFFFFF;
+  border: 0;
+}
+
+.navbar-nav {
+    float: none;;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    background-color: #347a71;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+}
+
+.navbar-nav>li {
+    display: inline-block;
+    float:none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #347a71;
+}
+
+.social-logos {
+  font-size: 22px;
+}
+
+.spacing {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
