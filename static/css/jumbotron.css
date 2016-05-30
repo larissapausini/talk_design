@@ -3,7 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 .jumbotron-talkdesign {
-    height: 200px;
+    height: 160px;
     background-color: #FFFFFF;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .navbar-inverse{
-  background-color: #FFFFFF;
+  background-color: #347a71;
   border: 0;
 }
 
@@ -36,6 +36,7 @@
     background-color: #347a71;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
+    color: #FFFFFF;
 }
 
 .navbar-nav>li {
