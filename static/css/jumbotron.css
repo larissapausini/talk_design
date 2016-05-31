@@ -2,13 +2,17 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+body {
+  background-color: #E0E0EA;
+}
+
 .jumbotron-talkdesign {
     height: 160px;
-    background-color: #FFFFFF;
+    background-color: #E0E0EA;
 }
 
 .bg-navbar {
-  background-color: #FFFFFF;
+  background-color: #E0E0EA;
   border: 0px;
 }
 
