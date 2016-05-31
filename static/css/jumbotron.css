@@ -50,7 +50,9 @@
 }
 
 .social-logos {
+  color: #FFFFFF;
   font-size: 22px;
+  margin-top: 9px;
 }
 
 .spacing {
@@ -62,4 +64,30 @@
   border: 1px;
   border-style: solid;
   border-color: #000000;
+}
+
+.link_email {
+  color: #FFFFFF;
+  font-size: 22px;
+  margin-top: 9px;
+}
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFFFF;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFFFFF;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
 }
