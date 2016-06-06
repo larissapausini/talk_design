@@ -6,6 +6,11 @@ body {
   background-color: #ffffff;
 }
 
+.price {
+  color: #347a71;
+  font-weight: bold;
+}
+
 .jumbotron-talkdesign {
     height: 160px;
     background-color: #ffffff;
