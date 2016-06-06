@@ -58,27 +58,16 @@ body {
     background-color: #347a71;
 }
 
-.social-logos {
-  color: #FFFFFF;
-  font-size: 22px;
-  margin-top: 9px;
-}
-
 .spacing {
   margin-top: 48px;
   margin-bottom: 48px;
 }
 
-/*.mosaic_img {
-  border: 1px;
-  border-style: solid;
-  border-color: #000000;
-}*/
-
 .link_email {
   color: #FFFFFF;
   font-size: 22px;
-  margin-top: 9px;
+  margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* unvisited link */
@@ -154,9 +143,9 @@ a:active {
     opacity: 0;
     width: 278px;
     height: 400px;
-    text-align: left;
+    text-align: center;
     padding-top: 180px;
-    padding-left: 20px;
+    font-family: "Open Sans", sans-serif;
 }
 
 #mainwrapper .box:hover .fade-caption {
