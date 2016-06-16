@@ -1,8 +1,8 @@
 {
-  "name": "Python on Heroku example",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "name": "Talk Design",
+  "description": "Talk Design.",
   "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
+  "repository": "https://github.com/heroku/talk-design",
   "keywords": ["python", "django" ],
   "addons": [ "heroku-postgresql" ]
 }
