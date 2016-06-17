@@ -1,6 +1,6 @@
 web:
   build: .
-  command: gunicorn talkdesign.wsgi --log-file -
+  command: gunicorn talkdesign.wsgi 
   working_dir: /app/user
   environment:
     PORT: 8080
