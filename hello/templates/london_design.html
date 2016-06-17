@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- Tours section -->
+<div class="row">
+  <div class="col-lg-5 col-lg-offset-1">
+      <img class="img-responsive" src="static\img\london-design\BARBICAN01.jpg" style="margin-bottom: 10px" alt="London">
+      <img class="img-responsive" src="static\img\london-design\BM!.jpg" style="margin-bottom: 10px" alt="London">
+      <img class="img-responsive" src="static\img\london-design\cafe.jpg" style="margin-bottom: 10px" alt="London">
+      <img class="img-responsive" src="static\img\london-design\Moda.jpg" style="margin-bottom: 10px" alt="London">
+  </div>
+  <div class="col-lg-5">
+    <div>
+      <h3>LONDON DESIGN</h3>
+      <h4>Why?</h4>
+      <p class="text-justify">A visita tem como objetivo conhecer 4 pontos da cidade que se diferenciam por seu design e constrastes, englobando desde a parte moderna e futurista do Design Museum ao antigo British Museum com pecas expostas com mais de 2.000 anos a.C, como a escultura egipcia Rosetta Stone.</p>
+      <h4>How?</h4>
+      <p class="text-justify">O guia encontrara o grupo no ponto inicial da tour (8:30am) e seguira para a primeira e segunda parada do dia antes do almoco. Apos a refeicao tipicamente Londrina, nos iremos para a terceira e quarta atracao com um break para o cafe/cha. O guia se despedira no grupo por voltas das 17:30, ao fim da tour na quarta atracao.</p>
+      <h4>Where?</h4>
+      <p class="text-justify">
+        <li>The British Museum – Holborn meeting point</li>
+        <li>V&amp;A Museum – South Kensignton (30minutes train)</li>
+        <li>The Design Museum (45minutes train)</li>
+        <li>Barbican Centre – Barbican (30minutes train) final point</li>
+      </p>
+      <h4>Incluso:</h4>
+      <p  class="text-justify">
+        <li>Almoco: fish and chips ou hamburger e fritas ou salada com quiche + 1 refrigerante/agua/suco - bebidas alcoolicas nao inclusas</li>
+        <li>Lanche – bebida nao alcoolica ou snack</li>
+      </p>
+      <h4>Nao incluso: </h4>
+      <p class="text-justify">
+        <li>Transporte (visitante deve adquiri seu proprio cartao diario/semanal/mensal de transporte - zonas 1-2 para esse roteiro em especifico)</li>
+        <li>Ingresso The Design Museum, por volta de R$ 65.00 (£12) por pessoa, adquirido pelo visitante no local</li>
+        <li>Ingressos para exposicoes</li>
+      </p>
+      <p class="text-justify">
+        *A data desejada para a tour deve ser enviada no formulario abaixo para confirmacao posterior.
+      </p>
+      <h4>Cancelamentos</h4>
+      <p class="text-justify">
+        <li>Ate 7 calendar days in advance, there is no cancellation fee</li>
+        <li>Entre 3 and 6 calendar days in advance, you will be charged a 50% cancellation fee</li>
+        <li>If you cancel within 2 calendar days in advance, you will be charged a 100% cancellation fee</li>
+      </p>
+      <p>Grupo maximo: 08 pessoas</p>
+    </div>
+    <div>
+      <h2 class="price">R$ 750.00</h2>
+    </div>
+    <hr>
+    <div>
+      <form class="form-horizontal">
+        <div class="form-group">
+          <label for="inputName" class="col-sm-2 control-label">Nome</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputName" placeholder="Nome">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputTel" class="col-sm-2 control-label">Telefone</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputTel" placeholder="Telefone">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputQty" class="col-sm-2 control-label">Nº de Pessoas</label>
+          <div class="col-sm-2">
+            <input type="number" class="form-control" id="inputQty" placeholder="1">
+          </div>
+          <label for="inputDate" class="col-sm-3 control-label">Data da Visita</label>
+          <div class="col-sm-5">
+            <input type="date" class="form-control" id="inputDate">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-10 col-sm-2">
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

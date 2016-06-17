@@ -9,3 +9,6 @@ def index(request):
 
 def pacotes(request):
     return render(request, 'pacotes.html')
+
+def london_design(request):
+    return render(request, 'london_design.html')
