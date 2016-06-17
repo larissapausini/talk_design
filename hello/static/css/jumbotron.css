@@ -12,6 +12,7 @@ body {
 }
 
 .jumbotron-talkdesign {
+    padding-top: 0px;
     height: 160px;
     background-color: #ffffff;
 }
