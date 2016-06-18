@@ -12,3 +12,6 @@ def pacotes(request):
 
 def london_design(request):
     return render(request, 'london_design.html')
+
+def parceiros(request):
+    return render(request, 'parceiros.html')
