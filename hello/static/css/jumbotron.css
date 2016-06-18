@@ -6,6 +6,10 @@ body {
   background-color: #ffffff;
 }
 
+.img-carousel{
+  margin-bottom: 10px;
+}
+
 .price {
   color: #347a71;
   font-weight: bold;
