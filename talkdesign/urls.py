@@ -11,8 +11,10 @@ import hello.views
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
-    url(r'^pacotes', hello.views.london_design, name='pacotes'),
-    url(r'^london_design', hello.views.london_design, name='london_design'),
-    url(r'^parceiros', hello.views.parceiros, name='parceiros'),
+    url(r'^pacotes$', hello.views.london_design, name='pacotes'),
+    url(r'^london_design$', hello.views.london_design, name='london_design'),
+    url(r'^parceiros$', hello.views.parceiros, name='parceiros'),
+    url(r'^contact$', hello.views.contact, name='contact'),
+
     url(r'^admin/', include(admin.site.urls)),
 ]

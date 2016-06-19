@@ -1,6 +1,7 @@
 web:
   build: .
-  command: gunicorn talkdesign.wsgi 
+  env_file: .env
+  command: gunicorn talkdesign.wsgi --log-file -
   working_dir: /app/user
   environment:
     PORT: 8080
@@ -11,6 +12,7 @@ web:
     - herokuPostgresql
 shell:
   build: .
+  env_file: .env
   command: bash
   working_dir: /app/user
   environment:
