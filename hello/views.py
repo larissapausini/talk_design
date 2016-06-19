@@ -42,12 +42,9 @@ def contact(request):
                    'inputDate',
                    '')
 
-    email = EmailMessage("New contact form submission", contact_name,
-                         "Email", contact_email,
-                         "Phone Number", contact_phone,
-                         "Language", contact_language,
-                         "Number of people", contact_qty,
-                         "Date of visit", contact_date,
+    email = EmailMessage("New contact form submission",
+                         request.POST,
+                         "Your website" + '',
                          ['casanova.leandro@gmail.com'],
                          headers={'Reply-To': 'casanova.leandro@gmail.com'}
                          )
