@@ -36,6 +36,5 @@ def contact(request):
                          reply_to=['renata@talkdesign.co'],
                          headers={'Message-ID': 'foo'}
                          )
-    email.send()
     result = q.enqueue(email.send)
     return redirect('london_design')
