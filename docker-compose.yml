@@ -2,6 +2,8 @@ web:
   build: .
   env_file: .env
   command: gunicorn talkdesign.wsgi --log-file -
+  volumes:
+    - .:/app/user
   working_dir: /app/user
   environment:
     PORT: 8080

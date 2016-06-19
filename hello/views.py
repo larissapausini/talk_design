@@ -42,11 +42,12 @@ def contact(request):
                    'inputDate',
                    '')
 
-    email = EmailMessage("New contact form submission",
-                         request.POST,
-                         "Your website" + '',
+    email = EmailMessage('New contact form submission',
+                         'Body goes here',
+                         'renata@talkdesign.co',
                          ['casanova.leandro@gmail.com'],
-                         headers={'Reply-To': 'casanova.leandro@gmail.com'}
+                         reply_to=['renata@talkdesign.co'],
+                         headers={'Message-ID': 'foo'}
                          )
     email.send()
     return redirect('london_design')
