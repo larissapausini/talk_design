@@ -4,6 +4,9 @@ from django.template.loader import get_template
 from django.core.mail import EmailMessage
 from django.template import Context
 
+from rq import Queue
+from worker import conn
+
 
 # Create your views here.
 def index(request):
@@ -23,24 +26,8 @@ def parceiros(request):
 
 
 def contact(request):
-    contact_name = request.POST.get(
-                   'inputName',
-                   '')
-    contact_email = request.POST.get(
-                   'inputEmail',
-                   '')
-    contact_phone = request.POST.get(
-                   'inputPhone',
-                   '')
-    contact_language = request.POST.get(
-                   'inputLanguage',
-                   '')
-    contact_qty = request.POST.get(
-                   'inputQty',
-                   '')
-    contact_date = request.POST.get(
-                   'inputDate',
-                   '')
+
+    q = Queue(connection=conn)
 
     email = EmailMessage('New contact form submission',
                          'Body goes here',
@@ -50,4 +37,5 @@ def contact(request):
                          headers={'Message-ID': 'foo'}
                          )
     email.send()
+    result = q.enqueue(email.send)
     return redirect('london_design')
