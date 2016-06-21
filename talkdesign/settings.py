@@ -147,6 +147,9 @@ EMAIL_HOST_PASSWORD = os.environ['SENDGRID_PASSWORD']
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
+NEW_RELIC_CONFIG_FILE = 'newrelic.ini newrelic-admin run-program command options'
+
+
 try:
     from local_settings import *
 except ImportError:
