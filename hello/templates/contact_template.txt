@@ -7,11 +7,5 @@ Email:
 Phone number:
 {{ contact_phone }}
 
-Language:
-{{ contact_language }}
-
-Number of people:
-{{ contact_qty }}
-
-Intended date of visit
-{{ contact_date }}
+Message:
+{{ contact_msg }}
