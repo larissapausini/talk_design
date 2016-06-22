@@ -1,2 +1,1 @@
-web: gunicorn talkdesign.wsgi --log-file -
-worker: python worker.py
+web: newrelic-admin run-program gunicorn talkdesign.wsgi --log-file -

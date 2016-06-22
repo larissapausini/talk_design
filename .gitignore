@@ -1,6 +1,7 @@
 .env
 .vagrant
 local_settings.py
+newrelic.ini
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
