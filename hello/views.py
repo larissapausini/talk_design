@@ -20,6 +20,10 @@ def london_design(request):
     return render(request, 'pacotes_london_design.html')
 
 
+def london_retro(request):
+    return render(request, 'pacotes_london_retro.html')
+
+
 def parceiros(request):
     return render(request, 'parceiros.html')
 
@@ -62,6 +66,12 @@ def contact_tour(request):
                   'inputPhone', '')
     contact_language = request.POST.get(
                   'inputLanguage', '')
+    contact_country = request.POST.get(
+                  'inputCountry', '')
+    contact_city = request.POST.get(
+                  'inputCity', '')
+    contact_nationality = request.POST.get(
+                  'inputNationality', '')
     contact_qty = request.POST.get(
                   'inputQty', '')
     contact_date = request.POST.get(
@@ -73,6 +83,9 @@ def contact_tour(request):
               'contact_email': contact_email,
               'contact_phone': contact_phone,
               'contact_language': contact_language,
+              'contact_country': contact_country,
+              'contact_city': contact_city,
+              'contact_nationality': contact_nationality,
               'contact_qty': contact_qty,
               'contact_date': contact_date,
               }
