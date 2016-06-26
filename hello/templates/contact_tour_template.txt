@@ -10,6 +10,15 @@ Phone number:
 Language:
 {{ contact_language }}
 
+Country:
+{{ contact_country }}
+
+City:
+{{ contact_city }}
+
+Nationality:
+{{ contact_nationality }}
+
 Number of people:
 {{ contact_qty }}
 
