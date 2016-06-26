@@ -17,11 +17,15 @@ def pacotes(request):
 
 
 def london_design(request):
-    return render(request, 'pacotes_london_design.html')
+    return render(request, 'pacote_london_design.html')
 
 
 def london_retro(request):
-    return render(request, 'pacotes_london_retro.html')
+    return render(request, 'pacote_london_retro.html')
+
+
+def london_fashion(request):
+    return render(request, 'pacote_london_fashion.html')
 
 
 def parceiros(request):
