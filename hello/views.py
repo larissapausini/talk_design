@@ -17,7 +17,7 @@ def pacotes(request):
 
 
 def london_design(request):
-    return render(request, 'london_design.html')
+    return render(request, 'pacotes_london_design.html')
 
 
 def parceiros(request):
