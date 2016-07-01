@@ -28,6 +28,10 @@ def london_fashion(request):
     return render(request, 'pacote_london_fashion.html')
 
 
+def london_home(request):
+    return render(request, 'pacote_london_home.html')
+
+
 def parceiros(request):
     return render(request, 'parceiros.html')
 

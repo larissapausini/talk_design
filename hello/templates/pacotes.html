@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block css %}
+<link href="static/css/image-caption-pacotes.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<!-- Tours section -->
+<div class="row">
+  <div id="mainwrapper" class="col-lg-5 col-lg-offset-1">
+    <a href="london_design">
+      <div class="box">
+        <img class="img-responsive" src="static\img\london-design\va2.jpg" alt="London Design">
+        <span class="caption fade-caption">
+          <h3>London Design</h3>
+        </span>
+      </div>
+    </a>
+  </div>
+  <div id="mainwrapper" class="col-lg-6">
+    <a href="london_fashion">
+      <div class="box">
+        <img class="img-responsive" src="static\img\fashioninicial.jpg" alt="London Fashion">
+        <span class="caption fade-caption">
+          <h3>London Fashion</h3>
+        </span>
+      </div>
+    </a>
+  </div>
+</div>
+<div class="row">
+  <div id="mainwrapper" class="col-lg-5 col-lg-offset-1">
+    <a href="london_retro">
+      <div class="box">
+        <img class="img-responsive" src="static\img\london-retro\retro 1.jpg" alt="London Retrô">
+        <span class="caption fade-caption">
+          <h3>London Retrô</h3>
+        </span>
+      </div>
+    </a>
+  </div>
+  <div id="mainwrapper" class="col-lg-6">
+    <a href="london_home">
+      <div class="box">
+        <img class="img-responsive" src="static\img\decorinicial.jpg" alt="London Home Renovation">
+        <span class="caption fade-caption">
+          <h3>London Home Renovation</h3>
+        </span>
+      </div>
+    </a>
+  </div>
+</div>
+
+{% endblock %}

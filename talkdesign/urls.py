@@ -11,10 +11,11 @@ import hello.views
 
 urlpatterns = [
     url(r'^$', hello.views.index, name='index'),
-    url(r'^pacotes$', hello.views.london_design, name='pacotes'),
+    url(r'^pacotes$', hello.views.pacotes, name='pacotes'),
     url(r'^london_design$', hello.views.london_design, name='london_design'),
     url(r'^london_retro$', hello.views.london_retro, name='london_retro'),
     url(r'^london_fashion$', hello.views.london_fashion, name='london_fashion'),
+    url(r'^london_home$', hello.views.london_home, name='london_home'),
     url(r'^parceiros$', hello.views.parceiros, name='parceiros'),
     url(r'^contact$', hello.views.contact, name='contact'),
     url(r'^contact_tour$', hello.views.contact_tour, name='contact_tour'),
